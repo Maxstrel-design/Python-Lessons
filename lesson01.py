@@ -8,4 +8,10 @@
 # Ввести: print("Hello, World!") и запустить этот код.
 # Установить редактор VS Code. Поставить расширения: Python и Jupyter. Для написания кода нужно создать файл с расширением .py открыть терминал CTRL+` и запускать код прямо в редакторе с помощью CTRL+F5
 # Первая программа
-print("Hello, World!")
+# print("Hello", "World!")
+# # cars = ["Audi", "BMW", "Mercedes", "Toyota"]
+# # cars.append("Lada")
+# # print(cars)
+name = input("Введите ваше имя: ")
+print("Привет", name)
+print(type(name))
